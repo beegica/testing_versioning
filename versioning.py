@@ -45,7 +45,7 @@ def main():
         "author": "",
         "email": ""
     }
-
+    print(sys.stdin)
     for line in sys.stdin:
         if not clean:
             subst_list = {
